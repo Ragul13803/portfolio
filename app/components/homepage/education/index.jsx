@@ -2,13 +2,16 @@
 import { educations } from "@/utils/data/educations";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import lottieFile from '../../../assets/lottie/study.json';
+import lottieFile from "../../../assets/lottie/study.json";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 
 function Education() {
   return (
-    <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div
+      id="education"
+      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+    >
       <Image
         src="/section.svg"
         alt="Hero"
@@ -41,7 +44,7 @@ function Education() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
+            {/* <div className="flex flex-col gap-6">
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
@@ -73,12 +76,12 @@ function Education() {
                   </GlowCard>
                 ))
               }
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Education;
