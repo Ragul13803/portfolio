@@ -52,7 +52,7 @@ function Skills() {
                       alt={skill}
                       width={40}
                       height={40}
-                      className="h-full w-auto rounded-lg"
+                      className="!h-full !w-auto rounded-lg"
                       style={{ width: 'auto', height: 'auto' }}
                     />
                   </div>

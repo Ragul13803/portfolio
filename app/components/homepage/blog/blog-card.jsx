@@ -15,10 +15,10 @@ function BlogCard({ blog, priority = false }) {
           src={blog?.cover_image}
           height={1080}
           width={1920}
-          alt=""
           className='h-full w-full group-hover:scale-110 transition-all duration-300'
+          alt=""
           priority={priority}
-          style={{ width: 'auto', height: 'auto' }}
+          style={{ width: '100%', height: '100%' }}
         />
       </div>
       <div className="p-2 sm:p-3 flex flex-col">
