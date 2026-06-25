@@ -83,6 +83,10 @@ import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
 
+import node from '../app/assets/svg/skills/nodejs-icon.svg'
+import express from '../app/assets/svg/skills/expressjs-icon.svg'
+import gitlab from '../app/assets/svg/skills/gitlab-icon.svg'
+import ReactNative from '../app/assets/svg/skills/react-native-expo.svg'
 
 
 export const skillsImage = (skill) => {
@@ -188,7 +192,7 @@ export const skillsImage = (skill) => {
       return graphql;
     case 'lightroom':
       return lightroom;
-    case 'materialui':
+    case 'material ui':
       return materialui;
     case 'nginx':
       return nginx;
@@ -254,6 +258,14 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'node js':
+      return node;
+    case 'express js':
+      return express;
+    case 'gitlab':
+      return gitlab;
+    case 'react native':
+      return ReactNative;
     default:
       break;
   }
