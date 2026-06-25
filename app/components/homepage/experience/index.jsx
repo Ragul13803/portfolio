@@ -63,7 +63,7 @@ function Experience() {
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
                             {experience.title}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm sm:text-base whitespace-pre-line">
                             {experience.company}
                           </p>
                         </div>
