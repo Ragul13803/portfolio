@@ -25,6 +25,7 @@
     "sharp": "^0.34.5"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.12",
     "@tailwindcss/postcss": "^4.3.0",
     "autoprefixer": "latest",
     "eslint": "^9.20.0",
