@@ -1,0 +1,40 @@
+.neon-cursor-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 99999;
+}
+
+.cursor-main {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d1d1d1;
+  box-shadow:
+    0 0 10px #d1d1d1,
+    0 0 30px #d1d1d1,
+    0 0 60px #d1d1d1;
+  pointer-events: none;
+}
+
+.cursor-trail {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(197, 193, 190);
+  box-shadow:
+    0 0 20px #d1d1d1;
+  pointer-events: none;
+}
+
+.cursor-glow {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(182, 174, 168, 0.25);
+  filter: blur(10px);
+  pointer-events: none;
+}
