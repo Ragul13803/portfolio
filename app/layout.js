@@ -2,7 +2,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 import { Exo } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import NeonCursor from '../app/components/NeonCursor'
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
@@ -29,9 +29,8 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <ToastContainer />
-
         <Navbar />
-
+        <NeonCursor />
         <main className="pt-20 min-h-screen">
           <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
             {children}
