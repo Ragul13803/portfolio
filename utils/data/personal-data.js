@@ -1,4 +1,4 @@
-import profileImage from '../.././public/profile.png'
+import profileImage from '../.././public/ragul_professinal.png'
 
 export const personalData = {
   name: "RAGUL SURESH",
